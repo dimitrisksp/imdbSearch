@@ -1,6 +1,6 @@
 let typingTimer;                //timer identifier
 const doneTypingInterval = 1000;  //set wait time until search starts to 5 seconds
-const endpoint = 'http://www.omdbapi.com/?';  //api endpoint
+const endpoint = 'https://www.omdbapi.com/?';  //api endpoint
 const apikey = '532c2fb6';    //api key
 
 $(document).ready(function(){
