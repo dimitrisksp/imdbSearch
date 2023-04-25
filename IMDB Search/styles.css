@@ -1,0 +1,68 @@
+/* Add a black background color to the top navigation bar */
+
+body {
+	background-image: linear-gradient(#c6c6c6, #efefef, #fcfcfc);
+	font-family: Verdana, Arial, sans-serif;
+
+}
+
+#SearchText {
+	cursor: pointer;
+}
+
+.search {
+	background-color: #454a51;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 0 0 20px #888888;
+  }
+  
+  #SearchText {
+	  display: block;
+	  width: 100px;
+	  padding: 8px;
+	  border: 1px solid gray;
+	  position: relative;
+	  text-align: center;
+	  background-color: #e2c822;
+	  left: 15%;
+	  top: 3px;
+	  border-radius: 15px;
+  }
+  
+  /* Style the search box inside the search bar */
+  .search input[type=text] {
+	  position: relative;
+	  bottom: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+	  border-radius: 10px;
+    margin-top: -40px;
+	  margin-left: 30%;
+    font-size: 17px;
+    width: 300px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  .search input[type=text]:focus {
+    width: 500px;
+	
+  }
+  
+  .ratings{
+    text-indent: 30px;
+  }
+
+  .more{
+    color: blue;
+	  cursor: pointer;
+  }
+  
+  .more:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,24 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>IMDB Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://m.media-amazon.com/images/G/01/IMDb/BG_rectangle._CB1509060989_SY230_SX307_AL_.png">
+    <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div class="search">
+      <div id="SearchText"  onClick="window.location.reload();" title="Refresh Page"><h2>IMDb <u>Search</u></h2></div>
+        <input type="text" id='input_text' placeholder="Search for a movie or a TV show...">
+      </div> 
+
+      <div class="content">
+        <p class="fetchData"></p>
+      </div>
+  </body>
+</html>
+
